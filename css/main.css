@@ -4,14 +4,14 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.invalid-field {
+	border: 1px solid #FF0000;
+}
+
 .error-message {
-    color: #F00;
+    color: #FF0000;
 }
 
 form input[name='occupationOther'] {
     display: none;
-}
-
-.invalid-field {
-	border: 1px solid #FF0000;
 }
